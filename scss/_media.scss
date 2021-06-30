@@ -1,0 +1,23 @@
+@media screen and (max-width: 1560px) {
+    .main__content-title {
+        text-align: center;
+    }
+    .main__content-title:nth-child(1) {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1187px) {
+    .left__block {
+        align-items: center;
+        text-align: center;
+    }
+    .right__block {
+        padding-top: 30px;
+    }
+    .future__classes {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
