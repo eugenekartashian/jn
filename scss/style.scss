@@ -2,8 +2,7 @@
 @import "fonts";
 
 .container {
-    // display: flex;
-    // justify-content: center;
+    // padding: 120px 0 120px 0;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -192,6 +191,20 @@
 //SECTION CLASSES END
 
 //SECTION REPORT START
+.prev {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    left: 15%;
+    top: 50%;
+}
+.next {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    right: 15%;
+    top: 50%;
+}
 .report {
     &__title {
         text-transform: uppercase;
@@ -200,9 +213,16 @@
         padding: 30px 20px 30px 20px;
     }
     &__slider {
-        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        &-item img{
+            width: 100%;
+            height: 100%;
+        }
     }
     &__consulting {
+        padding: 60px 0 60px 0;
         &-title {
             text-transform: uppercase;
             text-align: center;
@@ -222,7 +242,23 @@
 //SECTION REPORT END
 
 //SECTION CLIENTS START
+// .prev-2 {
+//     cursor: pointer;
+//     position: absolute;
+//     z-index: 10;
+//     left: -5%;
+//     top: 45%;
+// }
+// .next-2 {
+//     cursor: pointer;
+//     position: absolute;
+//     z-index: 10;
+//     right: -5%;
+//     top: 45%;
+// }
 .clients {
+    padding: 60px 0 60px 0;
+    background-color: #ededed;
     &__title {
         text-transform: uppercase;
         text-align: center;
@@ -230,7 +266,16 @@
         padding: 30px 20px 30px 20px;
     }
     &__slider {
-        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1200px;
+        &-item img{
+            padding: 10px;
+            width: 100%;
+            // height: 244px;
+        }
     }
 }
 .works__block {
