@@ -105,6 +105,7 @@
 
 //SECTION MAIN START
 .main {
+    // background-color: #ededed;
     &__quote {
         padding: 60px 20px 60px 20px;
         display: flex;
@@ -218,9 +219,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    &-section {
+        border-left: 1px solid #c6c6c6;
+    }
+    &-section:last-child {
+        border-right: 1px solid #c6c6c6;
+    }
 }
 .block-title {
-    padding: 0 5px 15px 5px;
+    position: relative;
+    padding: 25px 5px 15px 5px;
     max-width: 140px;
     font-size: 25px;
     line-height: 25px;
@@ -228,7 +236,7 @@
 .block-text {
     position: relative;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 15px;
     max-width: 150px;
     font-size: 19px;
     color: #575756;
@@ -237,17 +245,19 @@
     content: '';
     position: absolute;
     top: 11px;
-    left: 0;
+    left: 7px;
     width: 3px;
     height: 3px;
     border-radius: 1.5px;
     background-color: #575756;
 }
-
 .future__classes {
-    padding: 100px 0 100px;
+    // padding: 100px 0 100px;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
+    max-width: 1320px;
+    margin: 100px auto;
     justify-content: space-around;
     font-size: 19px;
     &-when {
@@ -256,12 +266,18 @@
     &-where {
         color: #b2b2b2;
     }
-    // &-name {
-       
-    // }
     &-program {
+        position: relative;
         color: #00a19a;
-        text-decoration: underline;
+    }
+    &-program:after {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 100%;
+        top: 22px;
+        left: 0;
+        background: #00a19a;
     }
     &-info {
         color: #00a19a;
@@ -269,6 +285,22 @@
         text-transform: uppercase;
         font-size: 23px;
     }
+}
+.future__classes:before {
+    content: '';
+    position: absolute;
+    background-color: #c6c6c6;
+    height: 1px;
+    width: 100%;
+    top: -30px;
+}
+.future__classes:after {
+    content: '';
+    position: absolute;
+    background-color: #c6c6c6;
+    height: 1px;
+    width: 100%;
+    bottom: -20px;
 }
 //SECTION CLASSES END
 
@@ -361,7 +393,13 @@
     }
 }
 .works__block {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & img {
+        max-width: 480px;
+        display: block;
+    }
 }
 //SECTION CLIENTS END
 

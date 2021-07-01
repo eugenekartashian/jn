@@ -85,6 +85,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border: none;
+    }
+    .right__block-section:last-child {
+        border: none;
     }
     .block-title {
         text-align: center;
