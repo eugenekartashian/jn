@@ -1,3 +1,7 @@
+$(document).ready(function(){
+	$('.gallery_content').createDiagonalSlider();
+});
+
 $('.report__slider').slick({
     infinite: true,
     slidesToShow: 4,
