@@ -236,6 +236,10 @@
         text-align: center;
         color: #fff;
     }
+    &-button:hover {
+        opacity: 0.5;
+        transition: all .5s ease-in-out;
+    }
     &-price {
         font-size: 35px;
     }
@@ -297,6 +301,10 @@
     &-program {
         position: relative;
         color: #00a19a;
+    }
+    &-program:hover {
+        opacity: 0.5;
+        transition: all .5s ease-in-out;
     }
     &-program:after {
         position: absolute;
@@ -415,6 +423,7 @@
         &-item img{
             padding: 10px;
             width: 100%;
+            cursor: pointer;
         }
     }
 }
@@ -431,6 +440,7 @@
     & img:hover {
         transform: scale(1.2);
         transition: all ease-in-out .5s;
+        border-radius: 20px;
     }
 }
 //SECTION CLIENTS END
@@ -459,9 +469,17 @@
             color: #000;
             text-decoration: underline;
         }
+        &-text span:hover {
+            opacity: 0.5;
+            transition: all .5s ease-in-out;
+        }
     }
     &__social {
         margin: 30px 0 30px 0;
+    }
+    &__social:hover {
+        opacity: 0.5;
+        transition: all .5s ease-in-out;
     }
 }
 //FOOTER END
