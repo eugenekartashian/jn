@@ -7,7 +7,7 @@
     }
 }
 
-@media screen and (max-width: 1268px) {
+@media screen and (max-width: 1272px) {
     .classes__block {
         justify-content: center;
     }
@@ -17,6 +17,9 @@
     }
     .right__block {
         padding-top: 30px;
+        &-section:last-child {
+            border-right: 1px solid #c6c6c6;
+        }
     }
     .future__classes {
         align-items: center;
@@ -76,9 +79,6 @@
 }
 
 @media screen and (max-width: 819px) {
-    .left__block {
-        padding: 10px;
-    }
     .right__block-section {
         padding-top: 20px;
         display: flex;
@@ -95,5 +95,10 @@
     }
     .block-text {
         max-width: 263px;
+    }
+}
+@media screen and (max-width: 361px) {
+    .left__block {
+        padding: 10px;
     }
 }
