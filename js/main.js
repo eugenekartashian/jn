@@ -41,8 +41,8 @@ $('.clients__slider').slick({
     autoplaySpeed: 2000,
     prevArrow: false,
     nextArrow: false,
-    // prevArrow: '<div class="prev-2"><img src="./images/arrow-left-2.png"></div>',
-    // nextArrow: '<div class="next-2"><img src="./images/arrow-right-2.png"></div>',
+    prevArrow: '<div class="prev-2"><img src="./images/arrow-left-2.png"></div>',
+    nextArrow: '<div class="next-2"><img src="./images/arrow-right-2.png"></div>',
     responsive: [
         {
             breakpoint: 861,
