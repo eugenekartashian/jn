@@ -2,11 +2,15 @@
     .main__content-title {
         text-align: center;
     }
-    // .main__content-title:nth-child(1) {
-    //     padding-top: 50px;
-    // }
+    .slider .logo {
+        left: 150px;
+    }
 }
-
+@media screen and (max-width: 1380px) {
+    .slider .logo {
+        left: 100px;
+    }
+}
 @media screen and (max-width: 1272px) {
     .logo {
         left: 0 !important;
