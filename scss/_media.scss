@@ -8,6 +8,9 @@
 }
 
 @media screen and (max-width: 1272px) {
+    .logo {
+        left: 0 !important;
+    }
     .classes__block {
         justify-content: center;
     }
@@ -95,6 +98,32 @@
     }
     .block-text {
         max-width: 263px;
+    }
+}
+@media screen and (max-width: 361px) {
+    .quote__text {
+        font-size: 28px;
+    }
+    .left__block-price {
+        font-size: 32px;
+    }
+    .future__classes-info {
+        font-size: 22px;
+    }
+    .classes__title {
+        font-size: 28px;
+    }
+    .report__title {
+        font-size: 28px;
+    }
+    .report__consulting-title {
+        font-size: 28px;
+    }
+    .clients__title {
+        font-size: 28px;
+    }
+    .footer__contacts-title {
+        font-size: 28px;
     }
 }
 @media screen and (max-width: 361px) {

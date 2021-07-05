@@ -85,7 +85,7 @@
     top: 8px;
 }
 .header__menu {
-    z-index: 1;
+    z-index: 2;
     display: flex;  
     position: relative;
     outline: none;  
@@ -104,10 +104,20 @@
 
 //SECTION SLIDER START
 .slider {
+    position: relative;
     &-block img {
         width: 100%;
         display: block;
         margin: 0px;
+    }
+    .logo {
+        position: absolute;
+        top: 300px;
+        left: 250px;
+        z-index: 1;
+    }
+    .logo img {
+        width: 100%;
     }
 }
 .content_slider {
@@ -419,20 +429,20 @@
 //SECTION REPORT END
 
 //SECTION CLIENTS START
-// .prev-2 {
-//     cursor: pointer;
-//     position: absolute;
-//     z-index: 10;
-//     left: -5%;
-//     top: 45%;
-// }
-// .next-2 {
-//     cursor: pointer;
-//     position: absolute;
-//     z-index: 10;
-//     right: -5%;
-//     top: 45%;
-// }
+.prev-2 {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    left: 5%;
+    top: 40%;
+}
+.next-2 {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    right: 5%;
+    top: 40%;
+}
 .clients {
     background-color: #ededed;
     &__title {
