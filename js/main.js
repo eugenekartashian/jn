@@ -6,12 +6,13 @@ window.onload = function () {
     }, 500);
 }
 
-$(document).ready(function(){
-	$('.gallery_content').createDiagonalSlider();
-});
+// $(document).ready(function(){
+// 	$('.gallery_content').createDiagonalSlider();
+// });
 
 $('.report__slider').slick({
     infinite: true,
+    dots: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     // autoplay: true,
@@ -47,8 +48,6 @@ $('.clients__slider').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: false,
-    nextArrow: false,
     prevArrow: '<div class="prev-2"><img src="./images/arrow-left-2.png"></div>',
     nextArrow: '<div class="next-2"><img src="./images/arrow-right-2.png"></div>',
     responsive: [
