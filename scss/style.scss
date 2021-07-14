@@ -61,7 +61,7 @@
     li {
         position: relative;
         font-size: 21px;
-        margin: 10px;
+        margin: 20px;
     }
     li:hover:after {
         content: '';
@@ -129,7 +129,7 @@
     display: flex;  
     position: relative;
     outline: none;  
-    margin: 10px 0;
+    // margin: 10px 0;
     list-style: none;
     transition-duration: .25s;
 }
@@ -238,6 +238,7 @@
         // }
         &-text {
             font-size: 20px;
+            line-height: 27px;
             padding: 50px 0 50px 0;
             max-width: 560px;
             color: #575756;
@@ -273,7 +274,7 @@
         text-transform: uppercase;
         text-align: center;
         font-size: 40px;
-        padding: 90px 20px 90px 20px;
+        padding: 60px 20px 90px 20px;
     }
     &__text {
         font-size: 20px;
@@ -387,7 +388,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 1320px;
-    margin: 100px auto;
+    margin: 100px auto 60px;
     justify-content: space-around;
     font-size: 19px;
     &-when {
@@ -475,7 +476,7 @@
             text-transform: uppercase;
             text-align: center;
             font-size: 40px;
-            padding: 90px 20px 90px 20px;
+            padding: 40px 20px 70px 20px;
         }
         &-text {
             font-size: 20px;
@@ -555,7 +556,7 @@
             text-transform: uppercase;
             text-align: center;
             font-size: 40px;
-            padding: 60px 20px 60px 20px;
+            padding: 100px 20px 70px 20px;
         }
         &-text {
             font-size: 20px;
